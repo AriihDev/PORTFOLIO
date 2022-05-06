@@ -1,0 +1,91 @@
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>
+			AriihDev - Portfolio
+		</title>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+		<link rel="icon" type="image/png" href="img/logo.png">
+	</head>
+		<div class="btn">
+		<img src="img/en-haut.png" height="20px" class="icone">
+		</div>
+		<nav>
+			<div class="profile">
+				<img src="img/profil.png" alt="profile photo" />
+				<h1>AriihDev</h1>
+			</div>
+			<ul>
+				<a href="https://github.com/AriihDev">
+					<li>GitHub</li>
+				</a>
+				<a href="#projects"><li>Mes Projets</li></a>
+			</ul>
+		</nav>
+		<section class="page-content">
+			<header>
+				<div class="container">
+					<div class="img"></div>
+					<div class="txt">
+						<h1>Hey, je suis <span id="typed"></span></h1>
+					</div>
+				</div>
+				<p>
+					Je suis développeur web junior. Je suis de Paris . Je suis actuellement en BAC +3 en tant que CONCEPTEUR DEVELLOPEUR D’APPLICATION.
+					Je maîtrise les langages du front-end (HTML/CSS/JAVASCRIPT/ANGULAR/jQUERY) , ainsi que le back-end (JAVA , PHP en cours).
+					Contactez-moi pour plus d'informations ou connaitre mon parcours plus en détail.
+				</p>
+			</header>
+			<section class="presentation-image">
+				<img src="img/presentation.jpg" alt="Dev image" />
+			</section>
+			<section class="projects-section">
+				<h1>Projets réalisés</h1>
+				<div id="projects" class="projects">
+					<div class="project">
+						<h4>Site E-Commerce avec SpringBoot (En cours)</h4>
+						<p class="description">
+							<img src="img/Ecommerce.png" height="155px"  alt="Ecommerce">
+						</p>
+						<p class="dates">Date 2022</p>
+					</div>
+					<div class="project">
+						<h4>API Bibliothèque avec Angular </h4>
+						<p class="description">
+							<img src="img/angular.png" height="155px"  alt="Angular">
+						</p>
+						<p class="dates">Date 2022</p>
+					</div>
+					<div class="project">
+						<h4>Présentation d'un Appart-Hôtel en HTML/CSS</h4>
+						<p class="description">
+							<a href="https://ariihdev.github.io/HotelPedroKV1.0/"><img src="img/Hotel.png" height="142px"  alt="Hotel"></a>
+						</p>
+						<p class="dates">Date 2022 </p>
+					</div>
+					<p>Voir mes autres projets sur mon<a href="https://github.com/AriihDev">GitHub.</a></p>
+				</div>
+			</section>
+		</section>
+		<footer>
+			<div class="colonne">
+				<h3>Me contacter</h3>
+				<p>ariihdev@hotmail.com</p>
+				<span>AriihDev©();2022</span>
+			</div>
+		</footer>
+		<script>
+			var typed = new Typed('#typed', {
+				strings: ["Ariih Dev.", "Dévellopeur web junior fullstack."],
+				typeSpeed : 100,
+				backSpeed : 50,
+				loop: true,
+				showCursor: true
+			})
+			</script>
+		<script src="btn.js"></script>
+
+	</body>
